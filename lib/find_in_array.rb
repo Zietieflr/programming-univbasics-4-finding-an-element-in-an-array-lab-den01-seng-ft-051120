@@ -13,5 +13,5 @@ def find_element_index(array, value_to_find)
   end
 end
 
-trial = ["a", "b", "b", "b", "c"];
+trial = ["b", "b", "b", "c"];
 find_element_index(trial, "b");
