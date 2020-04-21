@@ -5,3 +5,6 @@ def find_element_index(array, value_to_find)
     return nil; 
   end
 end
+
+trial = ["a", "b", "b", "b", "c"];
+find_element_index(trial, "b");
