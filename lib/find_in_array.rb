@@ -7,12 +7,8 @@ def find_element_index(array, value_to_find)
         matching_index.push(index);
       end
     }
-    puts matching_index;
+    return matching_index;
   else
     return nil; 
   end
 end
-
-trial = ["b", "b", "b", "c"];
-find_element_index(trial, "b");
-puts trial;
