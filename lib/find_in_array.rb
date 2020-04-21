@@ -15,3 +15,4 @@ end
 
 trial = ["b", "b", "b", "c"];
 find_element_index(trial, "b");
+puts trial;
