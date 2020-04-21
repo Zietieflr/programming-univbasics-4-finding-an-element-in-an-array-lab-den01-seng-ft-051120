@@ -7,7 +7,7 @@ def find_element_index(array, value_to_find)
         matching_index.push(index);
       end
     }
-    return matching_index;
+    puts matching_index.to_i;
   else
     return nil; 
   end
